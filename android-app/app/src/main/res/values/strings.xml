@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">hamyarjarahi</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_register">ثبت بیمار</string>
+    <string name="nav_patients">لیست بیماران</string>
+    <string name="nav_settings">تنظیمات</string>
+
+    <!-- Registration form -->
+    <string name="title_register">ثبت بیمار جدید</string>
+    <string name="hint_name">نام بیمار *</string>
+    <string name="label_insurance">نوع بیمه</string>
+    <string name="cb_supplemental">بیمه مکمل</string>
+    <string name="hint_reason">علت مراجعه</string>
+    <string name="hint_time">ساعت مراجعه</string>
+    <string name="hint_fee">مبلغ ویزیت</string>
+    <string name="btn_save">ذخیره بیمار</string>
+    <string name="err_name_required">نام بیمار الزامی است</string>
+    <string name="msg_saved">بیمار با موفقیت ثبت شد</string>
+
+    <string-array name="insurance_types">
+        <item>تامین اجتماعی</item>
+        <item>خدمات درمانی</item>
+        <item>آزاد</item>
+        <item>سایر</item>
+    </string-array>
+
+    <!-- Patient list -->
+    <string name="title_patients">لیست بیماران</string>
+    <string name="columns_label">ستون‌های نمایش:</string>
+    <string name="col_name">نام</string>
+    <string name="col_insurance">بیمه</string>
+    <string name="col_supp">مکمل</string>
+    <string name="col_reason">علت مراجعه</string>
+    <string name="col_time">ساعت</string>
+    <string name="col_date">تاریخ</string>
+    <string name="col_fee">مبلغ</string>
+    <string name="yes">دارد</string>
+    <string name="no">ندارد</string>
+    <string name="empty_list">هنوز بیماری ثبت نشده است</string>
+    <string name="summary">تعداد بیماران: %1$s  |  جمع مبلغ: %2$s</string>
+    <string name="close">بستن</string>
+    <string name="delete">حذف</string>
+    <string name="cancel">انصراف</string>
+    <string name="confirm_delete">این بیمار حذف شود؟</string>
+
+    <!-- Settings -->
+    <string name="title_settings">تنظیمات</string>
+    <string name="hint_doctor_name">نام پزشک</string>
+    <string name="hint_specialty">تخصص پزشک</string>
+    <string name="hint_default_fee">مبلغ پیش‌فرض ویزیت</string>
+    <string name="btn_save_settings">ذخیره تنظیمات</string>
+    <string name="msg_settings_saved">تنظیمات ذخیره شد</string>
+</resources>

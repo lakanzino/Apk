@@ -29,3 +29,10 @@ game28.dta
 
 # Log files
 warnings.log
+
+# Android / Gradle local files and signing keys
+.gradle/
+**/build/
+local.properties
+*.jks
+*.keystore
